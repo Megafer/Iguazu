@@ -21,3 +21,8 @@ images.forEach((image) => {
     });
   });
 });
+
+// ESTO ES PARA QUE NO PUEDAN USAR EL BOTON DERECHO
+document.addEventListener('contextmenu', function (e) {
+  e.preventDefault();
+});
